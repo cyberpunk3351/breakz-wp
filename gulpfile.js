@@ -5,7 +5,7 @@ var notify      = require("gulp-notify");
 var pug 		= require('gulp-pug');
 var rename 		= require('gulp-rename');
 var autoprefixer 		= require('gulp-autoprefixer');
-gcmq 	  	 	 = require('gulp-group-css-media-queries');
+var gcmq 	  	 	 = require('gulp-group-css-media-queries');
 
 
 // Static server

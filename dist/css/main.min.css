@@ -176,6 +176,8 @@ body {
 
 /* search 02 */
 
+/* Search */
+
 input {
   outline: none;
   width: 40px;
@@ -203,12 +205,13 @@ input:hover {
 .wrpMenu {
   width: 100%;
   background-color: #6A6B6F;
+  margin-bottom: 16px;
 }
 
 .mainMenu {
   border-left: 1px solid #B6B9B8;
   border-right: 1px solid #B6B9B8;
-  width: 1170px;
+  width: 1200px;
   height: 32px;
   margin: auto;
 }
@@ -289,6 +292,11 @@ input[type=checkbox] {
 
 input[type=checkbox]:checked ~ #menu {
   display: block;
+}
+
+.bodyContent .container {
+  height: 100vh;
+  background-color: #EFEFEF;
 }
 
 @media (max-width: 767.98px) {

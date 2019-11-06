@@ -146,8 +146,13 @@ svg {
           justify-content: space-between;
 }
 
-.logo {
-  color: #00ADB5;
+.logo img {
+  width: 200px;
+  height: 50px;
+}
+
+.logo p {
+  color: #EFEFEF;
 }
 
 .social {
